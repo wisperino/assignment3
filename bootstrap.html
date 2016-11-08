@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme un-comment to see what it looks like (will probably require html -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
-
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,8 +20,46 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+  
+<div class="container">
+    <h1>Hello, <small> small world! </small></h1>
+	<p class = "bg-primary">  This is a primary text with a bg-primary. </p>
+	<p class =  "text-uppercase">  I put everything in here inside a container class so it's confined. This text was typed normally but should be displayed call caps on the page.</p>
+	<table class="table">
+    
+	<tr>
+        <th> Item</th>
+	    <th> Price </th>
+	    <th> Quantity </th>
+	  </tr>
+	
+	<tbody>
+	<tr>
+      <td> Chocolate GOODIDE BAG </td>
+	  <td> $5.00 </td>
+	  <td> 1 </td> 
+    </tr>
+	</tbody>
+  </table>
+  <h2> This is a cool form: </h2>
+  <form>
+    <div class="form-group row">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter ur name">
+	 </div>
+    <div class = "form-group row">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter ur password">
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+  
+  
+  
+  
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
